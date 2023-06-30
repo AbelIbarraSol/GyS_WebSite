@@ -1,0 +1,26 @@
+.head__nav{
+    height: 100px;  
+    background-color: var(--third-color);  
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+}
+
+.head__nav-list{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head__nav-item_title{
+    font-size: var(--font-size-navigator);
+    font-weight: 500;
+}
+
+.nav__logo{
+    width: 150px;
+    height: 150px;
+    background-color: var(--third-color);
+    box-shadow: var(--box-shadow);
+    border-radius: 100px;
+}

@@ -1,0 +1,30 @@
+:root{
+    --font-family-body: 'Quicksand', sans-serif;
+    --font-family-title: 'Roboto', sans-serif;
+    --font-size-title: 60px;
+    --font-size-subtitle: 24px;
+    --font-size-navigator: 16px;
+    
+    --font-size-benefits-icon: 36px;
+
+    --font-size-footer-icon: 24px;
+
+    --font-size-icon-button: 40px;
+    --font-size-title-button: 24px;
+
+    --font-size-input: 12px;
+    --font-size-submit: 16px;
+
+    --font-size-card_course-primary: 24px;
+    --font-size-card_course-secondary: 12px;
+    --font-size-card_icon:16px;
+
+    --first-color: #393E41;
+    --second-color: #DFB011;
+    --third-color: #ffffff;
+    --fourth-color: #FBFBF2;
+    --fifth-color: #6A6E70;
+
+    --box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);;
+}
+

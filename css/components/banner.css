@@ -1,0 +1,8 @@
+.banner__img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    background-image: url(/assets/img/cursos_4.png);
+    background-position: initial;
+    box-shadow: var(--box-shadow);
+}

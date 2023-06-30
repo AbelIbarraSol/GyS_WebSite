@@ -1,0 +1,18 @@
+.form-input{
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 16px;
+    font-family: var(--font-family-body);
+    font-size: var(--font-size-input);
+    color: var(--fifth-color);
+}
+.form-textarea{
+    font-family: var(--font-family-body);
+    font-size: var(--font-size-input);
+    color: var(--fifth-color);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 16px;  
+}

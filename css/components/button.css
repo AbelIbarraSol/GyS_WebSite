@@ -1,0 +1,22 @@
+.form-submit{
+    background-color: var(--second-color);
+    color: var(--first-color);
+    font-family: var(--font-family-body);
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: var(--box-shadow);
+}
+
+.nav__socialmedia-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: var(--third-color);
+    box-shadow: var(--box-shadow);
+    border-radius: 50px;
+}
+
