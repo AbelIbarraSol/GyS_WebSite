@@ -1,5 +1,6 @@
 .head__nav{
-    height: 100px;  
+    height: 100px;
+    margin-bottom:60px ; 
     background-color: var(--third-color);  
     box-shadow: var(--box-shadow);
     border-radius: 10px;
@@ -12,8 +13,10 @@
     align-items: center;
 }
 
-.head__nav-item_title{
+.head__nav-item_title, .head__nav-item_title:visited{
     font-size: var(--font-size-navigator);
+    color: var(--first-color);
+    text-decoration: none;
     font-weight: 500;
 }
 

@@ -40,6 +40,13 @@
     gap: 10px;
 }
 
+.nav__item,.nav__item-link:visited{
+    color: var(--first-color);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
 .contac__form{
     padding: 50px 60px;
     display: flex;
@@ -65,4 +72,5 @@
 }
 .copyright__title{
     text-align: center;
+    font-weight: 500;
 }

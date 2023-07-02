@@ -16,58 +16,57 @@
 }
 
 .publicity__card-img{
-    background-image: url(/assets/img/curso_maquillaje_02.jpg);
+    background-image: url(/assets/img/banners/publicity_1.jpg);
     background-position: center;
     height: 550px;
     width: 550px;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
 }
-
-.courses__card{
-    width: 250px;
-    height: 300px;
+/* ----------------------------------------- */
+.card__course{
     display: flex;
     flex-direction: column;
-
-    background-color: var(--third-color);
+    justify-content: space-between;
+    height: 300px;
+    width: 250px;
     box-shadow: var(--box-shadow);
     border-radius: 10px;
-    font-weight: bold;
+    background-color: var(--third-color);
 }
 
-.courses__card-image{
+.card__course-image{
     width: 100%;
-    height: 200px;
+    height: 60%;
     border-radius: 10px 10px 0 0;
 }
 
-.courses_card-title{
+.card__course-content{
+    height: 40%;
+    padding: 0 20px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    margin: 20px 20px 10px 20px;
 }
-
-.courses__card-subTitle1{
+.card__course-content-subtitle{
     font-size: var(--font-size-card_course-secondary);
+    font-weight: 700;
 }
 
-.courses__card-subTitle2{
+.card__course-content-title{
+    text-align: justify;
     font-size: var(--font-size-card_course-primary);
+    font-weight: 700;
 }
-
-.courses__card-hour{
+.card__course-content_duration{
     display: flex;
-    align-items: center;
-    margin: 0 20px;
+    margin-top: 10px;
     gap: 5px;
+    align-items: center;
 }
-
-.courses__card-hour .fa-regular{
+.card__course-content_duration-subtitle{
     font-size: var(--font-size-card_icon);
-    color: var(--fifth-color);
 }
-
-.courses__hour-title{
-    color: var(--fifth-color);
+.card__course-content_duration .fa-regular{
+    font-size: var(--font-size-card_icon);
 }

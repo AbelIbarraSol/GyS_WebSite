@@ -14,24 +14,39 @@
     <link rel="stylesheet" href="css/components/button.css">
     <link rel="stylesheet" href="css/components/input.css">
     <link rel="stylesheet" href="css/components/banner.css">
+    <link rel="stylesheet" href="css/courses.css">
     <link rel="stylesheet" href="css/home.css">
-    <title>G&S -Home</title> 
+    <title>Home</title> 
 </head>
 <body>
     <header class="head container">   
         <nav class="head__nav">
             <ul class="head__nav-list">
-                <li class="head__nav-item"><a class="head__nav-item_title" href="#">Nosotros</a></li>
-                <li class="head__nav-item"><a class="head__nav-item_title" href="#">Cursos</a></li>
-                <img class="nav__logo" src="assets/img/GYS LOGO.png" alt="Logo GyS">
-                <li class="head__nav-item"><a class="head__nav-item_title" href="#">Contacto</a></li>
-                <li class="head__nav-item"><a class="head__nav-item_title" href="#">Tienda</a></li>
+                <li class="head__nav-item"><a class="head__nav-item_title" href="us.html">Nosotros</a></li>
+                <li class="head__nav-item"><a class="head__nav-item_title" href="courses.html">Cursos</a></li>
+                <li>
+                    <a href="index.html">
+                        <img class="nav__logo" src="assets/img/logos/GYS_LOGO.png" alt="Logo GyS"/>
+                    </a>
+                </li>
+                <li class="head__nav-item"><a class="head__nav-item_title" href="#contacto">Contacto</a></li>
+                <li class="head__nav-item"><a class="head__nav-item_title" href="store.html">Tienda</a></li>
             </ul>
         </nav>
     </header>  
     <main>
-        <section class="banner container">
-            <div class="banner__img"></div>
+        <section class="slider">
+            <div class="slides">
+              <div class="slide">
+                <img src="assets/img/banners/banner_course_1.jpg" alt="Imagen 1">
+              </div>
+              <div class="slide">
+                <img src="assets/img/banners/banner_store_1.jpg" alt="Imagen 2">
+              </div>
+              <div class="slide">
+                <img src="assets/img/banners/banner_course_2.png" alt="Imagen 3">
+              </div>
+            </div>
         </section>
         <section class="benefits container">
             <div class="benefits__icon">
@@ -58,40 +73,55 @@
         </section>
         <section class="courses container">
             <span class="courses__title">NUESTROS CURSOS</span>
-            <ul class="courses__card-list">
-                <li class="courses__card">
-                    <img src="assets/img/curso_peinado_01.webp" alt="Imagen referencial de Curso" class="courses__card-image">
-                    <div class="courses_card-title">
-                        <span class="courses__card-subTitle1">CURSO DE</span>
-                        <span class="courses__card-subTitle2">PEINADO I</span>
+            <div class="cards__courses">
+                <div class="card__course">
+                    <img class="card__course-image" src="assets/img/Courses/curso_peinado_01.webp" alt="Curso de Peinado"/>
+                    <div class="card__course-content">
+                        <span class="card__course-content-subtitle">CURSO DE</span>
+                        <span class="card__course-content-title">PEINADO</span>
+                        <div class="card__course-content_duration">
+                            <i class="fa-regular fa-clock"></i>
+                            <span class="card__course-content_duration-subtitle">8 CLASES</span>
+                        </div>
                     </div>
-                    <div class="courses__card-hour"><i class="fa-regular fa-clock"></i><span class="courses__hour-title">8 CLASES</span></div>
-                </li>
-                <li class="courses__card">
-                    <img src="assets/img/curso_tinte_03.jpg" alt="Imagen referencial de Curso" class="courses__card-image">
-                    <div class="courses_card-title">
-                        <span class="courses__card-subTitle1">CURSO DE</span>
-                        <span class="courses__card-subTitle2">TINTURACIÓN</span>
+                </div>
+                <div class="card__course">
+                    <img class="card__course-image" src="assets/img/Courses/curso_tinte_03.jpg" alt="Curso de Peinado"/>
+                    <div class="card__course-content">
+                        <span class="card__course-content-subtitle">CURSO DE</span>
+                        <span class="card__course-content-title">COLORACIÓN</I>
+                        </span>
+                        <div class="card__course-content_duration">
+                            <i class="fa-regular fa-clock"></i>
+                            <span class="card__course-content_duration-subtitle">10 CLASES</span>
+                        </div>
                     </div>
-                    <div class="courses__card-hour"><i class="fa-regular fa-clock"></i><span class="courses__hour-title">12 CLASES</span></div>
-                </li>
-                <li class="courses__card">
-                    <img src="assets/img/curso_corte_01.jpg" alt="Imagen referencial de Curso" class="courses__card-image">
-                    <div class="courses_card-title">
-                        <span class="courses__card-subTitle1">CURSO DE</span>
-                        <span class="courses__card-subTitle2">BARBERIA</span>
+                </div>
+                <div class="card__course">
+                    <img class="card__course-image" src="assets/img/Courses/curso_corte_01.jpg" alt="Curso de Peinado"/>
+                    <div class="card__course-content">
+                        <span class="card__course-content-subtitle">CURSO DE</span>
+                        <span class="card__course-content-title">BARBERIA</I>
+                        </span>
+                        <div class="card__course-content_duration">
+                            <i class="fa-regular fa-clock"></i>
+                            <span class="card__course-content_duration-subtitle">9 CLASES</span>
+                        </div>
                     </div>
-                    <div class="courses__card-hour"><i class="fa-regular fa-clock"></i><span class="courses__hour-title">10 CLASES</span></div>
-                </li>
-                <li class="courses__card">
-                    <img src="assets/img/curso_maquillaje_01.jpg" alt="Imagen referencial de Curso" class="courses__card-image">
-                    <div class="courses_card-title">
-                        <span class="courses__card-subTitle1">CURSO DE</span>
-                        <span class="courses__card-subTitle2">MAQUILLAJE</span>
+                </div>
+                <div class="card__course">
+                    <img class="card__course-image" src="assets/img/Courses/curso_tinte_03.jpg" alt="Curso de Peinado"/>
+                    <div class="card__course-content">
+                        <span class="card__course-content-subtitle">CURSO DE</span>
+                        <span class="card__course-content-title">MAQUILLAJE</I>
+                        </span>
+                        <div class="card__course-content_duration">
+                            <i class="fa-regular fa-clock"></i>
+                            <span class="card__course-content_duration-subtitle">5 CLASES</span>
+                        </div>
                     </div>
-                    <div class="courses__card-hour"><i class="fa-regular fa-clock"></i><span class="courses__hour-title">5 CLASES</span></div>
-                </li>
-            </ul>
+                </div>
+            </div>
         </section>
         <section class="suscribe container">
             <span class="suscribe__title">Suscríbete y accede a un 10% de descuento en tu primera compra en nuestra tienda</span>
@@ -105,9 +135,9 @@
         </section>
     </main>
     <footer class="rodapie container">
-        <section class="rodapie__content">
+        <section class="rodapie__content" id="contacto">
             <div class="rodapie__nav">
-                <a herf="#"><img class="nav__logo" src="assets/img/GYS LOGO.png" alt="Logo GyS"></a >
+                <a href="index.html"><img class="nav__logo" src="assets/img/logos/GYS_LOGO.png" alt="Logo GyS"></a >
                 <div class="nav__socialmedia">
                     <a href="#"><span class="nav__socialmedia-button"><i class="fa-brands fa-facebook"></i></span></a>
                     <a href="#"><span class="nav__socialmedia-button"><i class="fa-brands fa-youtube"></i></span></a>
@@ -117,23 +147,23 @@
                     <nav class="nav__navMap">
                         <span class="nav__titleList">NAVEGACIÓN</span>
                         <ul class="nav__list">
-                            <li class="nav__item"><a href="#">Nosotros</a></li>
-                            <li class="nav__item"><a href="#">Cursos</a></li>
-                            <li class="nav__item"><a href="#">Contacto</a></li>
-                            <li class="nav__item"><a href="#">Tienda</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="us.html">Nosotros</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="courses.html">Cursos</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="index.html">Home</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="store.html">Tienda</a></li>
                         </ul>
                     </nav>
                     <nav class="nav__navMap">
                         <span class="nav__titleList">CURSOS</span>
                         <ul class="nav__list">
-                            <li class="nav__item"><a href="#">Peinado</a></li>
-                            <li class="nav__item"><a href="#">Tinturación</a></li>
-                            <li class="nav__item"><a href="#">Barberia</a></li>
-                            <li class="nav__item"><a href="#">Maquillaje</a></li>
-                            <li class="nav__item"><a href="#">Perfect Glance</a></li>
-                            <li class="nav__item"><a href="#">Tratamiento Capilar</a></li>
-                            <li class="nav__item"><a href="#">Ondulación</a></li>
-                            <li class="nav__item"><a href="#">Laceado</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="#">Peinado</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="#">Tinturación</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="#">Barberia</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="#">Maquillaje</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="#">Perfect Glance</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="#">Tratamiento Capilar</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="#">Ondulación</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="#">Laceado</a></li>
                         </ul>
                     </nav>
                 </div>
