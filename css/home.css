@@ -21,10 +21,6 @@
 
 .publicity{
     height: 550px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
 }
 
 .suscribe{
@@ -32,9 +28,9 @@
     margin: 2.5rem 0;
     padding: 0 5rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     background-color: var(--second-color);
 }
 
@@ -42,6 +38,7 @@
     font-family: var(--font-family-title);
     font-size: var(--font-size-subtitle);
     font-weight: bold;
+    text-align: center;
 }
 
 .suscribe__card{

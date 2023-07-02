@@ -17,6 +17,11 @@
 	text-align: center;
 }
 
+.mission .section__title, .vision .section__title{
+    background-color: var(--second-color);
+    color: var(--first-color);
+}
+
 .us div{
     display: flex;
     align-items: center;

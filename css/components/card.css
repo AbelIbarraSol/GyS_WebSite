@@ -1,25 +1,32 @@
 .publicity__card{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     gap: 20px;
 }
 
-.publicity__card-title{
+.publicity__card_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.publicity__card_content-title{
     font-family: var(--font-family-title);
     font-size: var(--font-size-title);
     font-weight: bold;
+    text-align: left;
 }
 
-.publicity__card-subtitle{
+.publicity__card_content-subtitle{
     font-family: var(--font-family-title);
     font-size: var(--font-size-subtitle);
+    text-align: left;
 }
 
 .publicity__card-img{
-    background-image: url(/assets/img/banners/publicity_1.jpg);
-    background-position: center;
     height: 550px;
-    width: 550px;
+    width: 450px;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
 }
