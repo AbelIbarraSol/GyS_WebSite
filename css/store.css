@@ -1,0 +1,23 @@
+.store{
+    padding: 60px 60px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--first-color);
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.store img{
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+}
+.store span{
+    line-height: 70px;
+    text-align: center;
+    font-size: var(--font-size-title);
+    font-weight: 700;
+    color: var(--third-color);
+}

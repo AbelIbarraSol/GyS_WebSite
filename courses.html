@@ -22,6 +22,7 @@
 		<link rel="stylesheet" href="css/components/banner.css" />
 		<link rel="stylesheet" href="css/courses.css"/>
 		<link rel="stylesheet" href="css/home.css">
+		<script src="app.js"></script>
 		<title>Cursos</title>
 	</head>
 	<body>
@@ -57,7 +58,7 @@
 			<section class="courses container">
 				<span class="courses__title">NUESTROS CURSOS</span>
 				<div class="cards__courses">
-					<div class="card__course">
+					<div class="card__course" onclick="link_Course1()">
 						<img class="card__course-image" src="assets/img/Courses/curso_peinado_01.webp" alt="Curso de Peinado"/>
 						<div class="card__course-content">
 							<span class="card__course-content-subtitle">CURSO DE</span>
@@ -68,7 +69,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card__course">
+					<div class="card__course" onclick="link_Course2()">
 						<img class="card__course-image" src="assets/img/Courses/curso_tinte_03.jpg" alt="Curso de Peinado"/>
 						<div class="card__course-content">
 							<span class="card__course-content-subtitle">CURSO DE</span>
@@ -80,7 +81,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card__course">
+					<div class="card__course" onclick="link_Course3()">
 						<img class="card__course-image" src="assets/img/Courses/curso_corte_01.jpg" alt="Curso de Peinado"/>
 						<div class="card__course-content">
 							<span class="card__course-content-subtitle">CURSO DE</span>
@@ -92,7 +93,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card__course">
+					<div class="card__course" onclick="link_Course4()">
 						<img class="card__course-image" src="assets/img/Courses/curso_maquillaje_01.jpg" alt="Curso de Peinado"/>
 						<div class="card__course-content">
 							<span class="card__course-content-subtitle">CURSO DE</span>
@@ -104,7 +105,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card__course">
+					<div class="card__course" onclick="link_Course5()">
 						<img class="card__course-image" src="assets/img/Courses/curso_cejas_01.jpg" alt="Curso de Peinado"/>
 						<div class="card__course-content">
 							<span class="card__course-content-subtitle">CURSO DE</span>
@@ -116,7 +117,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card__course">
+					<div class="card__course" onclick="link_Course6()">
 						<img class="card__course-image" src="assets/img/Courses/curso_tratamiento_capilar_01.webp" alt="Curso de Peinado"/>
 						<div class="card__course-content">
 							<span class="card__course-content-subtitle">CURSO DE</span>
@@ -128,7 +129,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card__course">
+					<div class="card__course" onclick="link_Course7()">
 						<img class="card__course-image" src="assets/img/Courses/curso_ondulacion_01.webp" alt="Curso de Peinado"/>
 						<div class="card__course-content">
 							<span class="card__course-content-subtitle">CURSO DE</span>
@@ -140,7 +141,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card__course">
+					<div class="card__course" onclick="link_Course8()">
 						<img class="card__course-image" src="assets/img/Courses/curso_laceado_01.jpg" alt="Curso de Peinado"/>
 						<div class="card__course-content">
 							<span class="card__course-content-subtitle">CURSO DE</span>
@@ -174,7 +175,7 @@
 				<div class="rodapie__nav">
 					<a href="index.html"><img class="nav__logo" src="assets/img/logos/GYS_LOGO.png" alt="Logo GyS"></a >
 					<div class="nav__socialmedia">
-						<a href="#"><span class="nav__socialmedia-button"><i class="fa-brands fa-facebook"></i></span></a>
+						<a href="https://www.facebook.com/gyscentro"><span class="nav__socialmedia-button"><i class="fa-brands fa-facebook"></i></span></a>
 						<a href="#"><span class="nav__socialmedia-button"><i class="fa-brands fa-youtube"></i></span></a>
 						<a href="#"><span class="nav__socialmedia-button"><i class="fa-brands fa-whatsapp"></i></span></a>
 					</div>
@@ -191,14 +192,14 @@
 						<nav class="nav__navMap">
 							<span class="nav__titleList">CURSOS</span>
 							<ul class="nav__list">
-								<li class="nav__item"><a class="nav__item-link" href="#">Peinado</a></li>
-								<li class="nav__item"><a class="nav__item-link" href="#">Tinturación</a></li>
-								<li class="nav__item"><a class="nav__item-link" href="#">Barberia</a></li>
-								<li class="nav__item"><a class="nav__item-link" href="#">Maquillaje</a></li>
-								<li class="nav__item"><a class="nav__item-link" href="#">Perfect Glance</a></li>
-								<li class="nav__item"><a class="nav__item-link" href="#">Tratamiento Capilar</a></li>
-								<li class="nav__item"><a class="nav__item-link" href="#">Ondulación</a></li>
-								<li class="nav__item"><a class="nav__item-link" href="#">Laceado</a></li>
+								<li class="nav__item"><a class="nav__item-link" href="course1.html">Peinado</a></li>
+								<li class="nav__item"><a class="nav__item-link" href="course2.html">Tinturación</a></li>
+								<li class="nav__item"><a class="nav__item-link" href="course3.html">Barberia</a></li>
+								<li class="nav__item"><a class="nav__item-link" href="course4.html">Maquillaje</a></li>
+								<li class="nav__item"><a class="nav__item-link" href="course5.html">Perfect Glance</a></li>
+								<li class="nav__item"><a class="nav__item-link" href="course6.html">Tratamiento Capilar</a></li>
+								<li class="nav__item"><a class="nav__item-link" href="course7.html">Ondulación</a></li>
+								<li class="nav__item"><a class="nav__item-link" href="course8.html">Laceado</a></li>
 							</ul>
 						</nav>
 					</div>

@@ -1,24 +1,36 @@
-var slides = document.querySelectorAll('.slide');
-var currentSlide = 0;
-var slideInterval = setInterval(nextSlide, 2000); // Cambia la imagen cada 2 segundos
-
-var prevBtn = document.querySelector('.prev-btn');
-var nextBtn = document.querySelector('.next-btn');
-
-prevBtn.addEventListener('click', prevSlide);
-nextBtn.addEventListener('click', nextSlide);
-
-function prevSlide() {
-  slides[currentSlide].classList.remove('active');
-  currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-  slides[currentSlide].classList.add('active');
+/*REDIRECCIONES CARD CURSOS*/
+function link_Courses() {
+  window.location.href = 'courses.html'; 
 }
 
-function nextSlide() {
-  slides[currentSlide].classList.remove('active');
-  currentSlide = (currentSlide + 1) % slides.length;
-  slides[currentSlide].classList.add('active');
+function link_Course1() {
+  window.location.href = 'course1.html'; 
 }
 
-// Agregar clase "active" a la diapositiva inicial
-slides[currentSlide].classList.add('active');
+function link_Course2() {
+  window.location.href = 'course2.html'; 
+}
+
+function link_Course3() {
+  window.location.href = 'course3.html'; 
+}
+
+function link_Course4() {
+  window.location.href = 'course4.html'; 
+}
+
+function link_Course5() {
+  window.location.href = 'course5.html'; 
+}
+
+function link_Course6() {
+  window.location.href = 'course6.html'; 
+}
+
+function link_Course7() {
+  window.location.href = 'course7.html'; 
+}
+
+function link_Course8() {
+  window.location.href = 'course8.html'; 
+}

@@ -14,10 +14,10 @@
     <link rel="stylesheet" href="css/components/button.css">
     <link rel="stylesheet" href="css/components/input.css">
     <link rel="stylesheet" href="css/components/banner.css">
-    <link rel="stylesheet" href="css/courses.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/courses.css">
     <script src="app.js"></script>
-    <title>Home</title> 
+    <title>Laceado</title>
 </head>
 <body>
     <header class="head container">   
@@ -34,47 +34,73 @@
                 <li class="head__nav-item"><a class="head__nav-item_title" href="store.html">Tienda</a></li>
             </ul>
         </nav>
-    </header>  
+    </header>
     <main>
-        <section class="slider">
-            <div class="slides">
-              <div class="slide">
-                <img src="assets/img/banners/banner_course_1.jpg" alt="Imagen 1">
-              </div>
-              <div class="slide">
-                <img src="assets/img/banners/banner_store_1.jpg" alt="Imagen 2">
-              </div>
-              <div class="slide">
-                <img src="assets/img/banners/banner_course_2.png" alt="Imagen 3">
-              </div>
+        <section class="route container">
+            <i class="fa-solid fa-book-open"></i>
+            <span class="route__title" onclick="link_Courses()">Cursos Libres</span>
+            <i class="fa-solid fa-angle-right"></i>
+            <span class="route__title" onclick="link_Course8()">Laceado</span>
+        </section>
+        <section class="course container">
+            <div class="card__course_description">
+                <img class="card__course_description__img" src="assets/img/Courses/curso_laceado_01.jpg" alt="Curso Maquillaje">
+                <div class="card__course_description__content">
+                    <span class="card__course_description__content-title">Laceado</span>
+                    <p class="card__course_description__content-subtitle">Da tu primer paso en el mundo de la belleza aprendiendo técnicas profesionales en este primer modulo</p>
+                    <div class="card__course_description__icon">
+                        <div class="card__course_description__fa">
+                            <i class="fa-regular fa-clock"></i>
+                            <i class="fa-solid fa-medal"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="card__course_description__subtitle">                        
+                            <span class="card__course_description__subtitle">8 CLASES</span>
+                            <span class="card__course_description__subtitle">Nivel Básico</span>
+                            <span class="card__course_description__subtitle">Certificado de Finalización</span>
+                        </div>
+                    </div>
+                    <div class="card__course_description__buttons">
+                        <div class="card__course_description__button">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <span class="card__course_description__button-subtitle">INSCRÍBETE</span>
+                        </div>
+                        <div class="card__course_description__button">
+                            <i class="fa-regular fa-file"></i>
+                            <span class="card__course_description__button-subtitle">BROCHURE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="course__content">
+                <span class="course__content-title">¿Qué aprenderás?</span>
+                <p>En este curso libre podrás destacar tu creatividad a través de 
+                    trabajos con gran nivel de elaboración. Aprenderás todas las 
+                    técnicas profesionales de vanguardia bajo un concepto avanzado</p>
+                <span class="course__content-title">Dirigido a:</span>
+                <ul>
+                    <li class="course__content-item">Estilistas que busquen mejorar sus técnicas y diversificar sus servicios.</li>
+                    <li class="course__content-item">Estilistas que quieran aprender a realizar laceado japones y brasileño etc.</li>
+                    <li class="course__content-item">Hombres y mujeres que tengan interés en aprender Laceado y que no tengan ningún conocimiento previo.</li>
+                </ul>
             </div>
         </section>
         <section class="benefits container">
             <div class="benefits__icon">
                 <i class="fa-solid fa-cloud"></i>
-                <span class="benefits__icon-title">Acceso a Material Educativo</span>
+                <span class="benefits__icon-title">Acceso a Material <br>Educativo</span>
             </div>
             <div class="benefits__icon">
                 <i class="fa-regular fa-face-grin"></i>
-                <span class="benefits__icon-title">Clases personalizadas</span>
+                <span class="benefits__icon-title">Clases <br>personalizadas</span>
             </div>
             <div class="benefits__icon">
                 <i class="fa-solid fa-arrows-rotate"></i>
-                <span class="benefits__icon-title">Nuevos cursos cada mes</span>
+                <span class="benefits__icon-title">Nuevos cursos <br>cada mes</span>
             </div>
         </section>
-        <section class="publicity container">
-            <div class="publicity__card">
-                <div class="publicity__card_content">
-                    <span class="publicity__card_content-title">¡Se parte del mundo de la belleza!</span>
-                    <span class="publicity__card_content-subtitle">Nos adaptamos a tus necesidades con nuestros 
-                        cursos 100% <br>remotos o semipresenciales.</span>
-                </div>
-                <img class="publicity__card-img" src="assets/img/banners/publicity_1.jpg" alt="Imagen Publicitaria"> 
-            </div>
-        </section>
-        <section class="courses container">
-            <span class="courses__title">NUESTROS CURSOS</span>
+        <section class="others__courses container">
+            <span class="courses__title">Los estudiantes también se inscribieron en</span>
             <div class="cards__courses">
                 <div class="card__course" onclick="link_Course1()">
                     <img class="card__course-image" src="assets/img/Courses/curso_peinado_01.webp" alt="Curso de Peinado"/>
@@ -110,7 +136,7 @@
                             <span class="card__course-content_duration-subtitle">9 CLASES</span>
                         </div>
                     </div>
-                </div>
+                </div>                
                 <div class="card__course" onclick="link_Course6()">
                     <img class="card__course-image" src="assets/img/Courses/curso_tratamiento_capilar_01.webp" alt="Curso de Peinado"/>
                     <div class="card__course-content">
@@ -123,16 +149,6 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="suscribe container">
-            <span class="suscribe__title">Suscríbete y accede a un 10% de descuento en tu primera compra en nuestra tienda</span>
-            <form action="#" class="suscribe__card">
-                <span class="suscribe__form-title">NOVEDADES Y LANZAMIENTOS</span>
-                <div class="suscribe__form">
-                    <input type="text" type="email" class="form-input" placeholder="Correo Electrónico">
-                    <button class="form-submit" type="submit">SUSCRIBIRME</button>
-                </div>
-            </form>
         </section>
     </main>
     <footer class="rodapie container">
@@ -184,4 +200,3 @@
     </footer>
 </body>
 </html>
-

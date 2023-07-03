@@ -14,10 +14,78 @@
     <link rel="stylesheet" href="css/components/button.css">
     <link rel="stylesheet" href="css/components/input.css">
     <link rel="stylesheet" href="css/components/banner.css">
+    <link rel="stylesheet" href="css/store.css">
     <link rel="stylesheet" href="css/home.css">
     <title>Tienda</title>
 </head>
 <body>
-    <h2>Tiendita</h2>
+    <header class="head container">   
+        <nav class="head__nav">
+            <ul class="head__nav-list">
+                <li class="head__nav-item"><a class="head__nav-item_title" href="us.html">Nosotros</a></li>
+                <li class="head__nav-item"><a class="head__nav-item_title" href="courses.html">Cursos</a></li>
+                <li>
+                    <a href="index.html">
+                        <img class="nav__logo" src="assets/img/logos/GYS_LOGO.png" alt="Logo GyS"/>
+                    </a>
+                </li>
+                <li class="head__nav-item"><a class="head__nav-item_title" href="#contacto">Contacto</a></li>
+                <li class="head__nav-item"><a class="head__nav-item_title" href="store.html">Tienda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="store container">
+            <img src="assets/img/gif/develoment_in_progress.gif">
+            <span>TIENDA VIRTUAL <br> PROXIMAMENTE <br>👩‍💻</span>
+        </section>
+    </main>
+    <footer class="rodapie container">
+        <section class="rodapie__content" id="contacto">
+            <div class="rodapie__nav">
+                <a href="index.html"><img class="nav__logo" src="assets/img/logos/GYS_LOGO.png" alt="Logo GyS"></a >
+                <div class="nav__socialmedia">
+                    <a href="https://www.facebook.com/gyscentro"><span class="nav__socialmedia-button"><i class="fa-brands fa-facebook"></i></span></a>
+                    <a href="#"><span class="nav__socialmedia-button"><i class="fa-brands fa-youtube"></i></span></a>
+                    <a href="#"><span class="nav__socialmedia-button"><i class="fa-brands fa-whatsapp"></i></span></a>
+                </div>
+                <div class="nav">
+                    <nav class="nav__navMap">
+                        <span class="nav__titleList">NAVEGACIÓN</span>
+                        <ul class="nav__list">
+                            <li class="nav__item"><a class="nav__item-link" href="us.html">Nosotros</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="courses.html">Cursos</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="index.html">Home</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="store.html">Tienda</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="nav__navMap">
+                        <span class="nav__titleList">CURSOS</span>
+                        <ul class="nav__list">
+                            <li class="nav__item"><a class="nav__item-link" href="course1.html">Peinado</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="course2.html">Tinturación</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="course3.html">Barberia</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="course4.html">Maquillaje</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="course5.html">Perfect Glance</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="course6.html">Tratamiento Capilar</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="course7.html">Ondulación</a></li>
+                            <li class="nav__item"><a class="nav__item-link" href="course8.html">Laceado</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <form action="#" class="contac__form">
+                <span class="contac__form-title">Solicita información aquí</span>
+                <input class="form-input" type="text" placeholder="Nombre">
+                <input class="form-input" type="tel" placeholder="Teléfono">
+                <input class="form-input" type="email" placeholder="Correo Electrónico">
+                <textarea class="form-textarea" placeholder="Comentario" cols="30" rows="10"></textarea>
+                <button class="form-submit" type="submit">ENVIAR</button>
+            </form>
+        </section>
+        <div class="copyright container">
+            <span class="copyright__title">&copy; Copyright G&S 2023. Todos los derechos reservados</span>
+        </div>
+    </footer>
 </body>
 </html>

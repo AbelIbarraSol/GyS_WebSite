@@ -32,3 +32,42 @@
     background-color:var(--fourth-color);
     outline: none;
   }
+
+/* ------------------------------------------- */
+.card__course_description__buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+.card__course_description__button{
+    display: flex;
+    gap: 10px;
+    padding: 16px 16px;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    color: var(--third-color);
+}
+
+.card__course_description__button .fa-brands,
+.card__course_description__button .fa-regular{
+    font-size: var(--font-size-icon-button);
+}
+
+.card__course_description__button:first-child{
+    background-color: var(--sixth-color);
+    color: var(--third-color);
+}
+
+.card__course_description__button:nth-child(2){
+    background-color: var(--second-color);
+    color: var(--first-color);
+}
+.card__course_description__button-subtitle{
+    font-size: var(--font-size-title-button);
+    font-weight: 700;
+}
+
+

@@ -18,3 +18,40 @@
     gap: 20px;
     flex-wrap: wrap;
 }
+/* ------------------------------------------ */
+.course{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.route{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: var(--fifth-color);
+    font-weight: 700;
+    font-size: var(--font-size-card_icon);
+}
+
+.route .fa-solid{
+    font-size: var(--font-size-card_icon);
+}
+
+.route__title:hover{
+    cursor: pointer;
+}
+
+.others__courses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 2.5rem 0;
+    padding: 60px 100px;
+    background-color: var(--first-color);
+    box-shadow: var(--box-shadow);
+}
+
+.others__courses .courses__title{
+    color: var(--third-color);
+}
